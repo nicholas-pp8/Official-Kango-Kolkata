@@ -143,11 +143,11 @@ module.exports = [ {
   command: ["script"],
   operate: async ({ m, Kango, reply }) => {
     try {
-      const repoUrl = "https://github.com/OfficialKango/KANGO-XMD-LITE";
+      const repoUrl = "https://github.com/nicholas-pp8/KANGO-XMD-LITE";
       const zipUrl = `${repoUrl}/archive/refs/heads/main.zip`;
 
       // Fetch repo details to get avatar
-      const { data: repo } = await axios.get("https://api.github.com/repos/OfficialKango/KANGO-XMD-LITE");
+      const { data: repo } = await axios.get("https://api.github.com/repos/nicholas-pp8/KANGO-XMD-LITE");
       const { data: avatarBuffer } = await axios.get(repo.owner.avatar_url, {
         responseType: "arraybuffer"
       });
@@ -249,7 +249,7 @@ ${userGreeting}
   }) => {
     try {
       // Fetch repo data from GitHub
-      const { data: repo } = await axios.get("https://api.github.com/repos/OfficialKango/KANGO-XMD-LITE");
+      const { data: repo } = await axios.get("https://api.github.com/repos/nicholas-pp8/KANGO-XMD-LITE");
 
       // Fetch the repo owner's avatar image
       const { data: avatarBuffer } = await axios.get(repo.owner.avatar_url, {
