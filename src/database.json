@@ -1,0 +1,44 @@
+{
+  "chats": {},
+  "settings": {
+    "prefix": ".",
+    "mode": "public",
+    "autobio": false,
+    "anticall": false,
+    "autotype": false,
+    "autoread": false,
+    "welcome": false,
+    "antiedit": "private",
+    "menustyle": "3",
+    "statusemoji": "🧡",
+    "autoreact": false,
+    "autorecord": false,
+    "antidelete": "private",
+    "alwaysonline": false,
+    "autoviewstatus": false,
+    "autoreactstatus": false,
+    "autorecordtype": false,
+    "916290371061@s.whatsapp.net": {
+      "autobio": false,
+      "autotype": false,
+      "anticall": false,
+      "autoread": false,
+      "statusemoji": "❤",
+      "welcome": false,
+      "autoreact": false,
+      "antidelete": "private",
+      "mode": "private",
+      "antiedit": "private",
+      "alwaysonline": false,
+      "autorecord": false,
+      "autoviewstatus": false,
+      "autoreactstatus": false,
+      "autorecordtype": false
+    }
+  },
+  "blacklist": {
+    "blacklisted_numbers": []
+  },
+  "sudo": [],
+  "scheduledStatuses": {}
+}
